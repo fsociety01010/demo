@@ -29,6 +29,7 @@ public class Main {
               Scanner input = new Scanner(socket.getInputStream());
               OutputStreamWriter write = new OutputStreamWriter(socket.getOutputStream());
               write.write("Hello bitch");
+              // aad
 
           }
       }
